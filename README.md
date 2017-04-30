@@ -1,8 +1,6 @@
-# granny-connect-ionic
+# granny-connect background
 
-The Granny-Connect IONIC interface is a mobile app that is client of the Granny-Connect interface.
-
-Granny-Connect is an application for caregivers in relative sense. The main tasks are:
+Granny-Connect is an application for caregivers in the relative sense. The main tasks are:
 
  * Managing perscriptions
    * Perscription agenda
@@ -11,12 +9,16 @@ Granny-Connect is an application for caregivers in relative sense. The main task
    * Docter appointments
    * Relative appointments
  * Resource management
-   * "Zorgvinder?"
+   * *Zorgvinder?*
    * Caregiver support
  * Logbook
    * Weight
    * Temperature
- 
+
+# granny-connect-ionic
+
+The Granny-Connect IONIC interface is a mobile app that is client of the Granny-Connect interface.
+
 ## Building Granny-Connect IONIC
 
 First install NPM:
