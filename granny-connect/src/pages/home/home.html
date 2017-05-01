@@ -1,16 +1,15 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Welkom op Granny-Connect</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welkom op Granny-Connect</h2>
-  <p>
-    Je kunt hier je eigen mantelzorg situatie beheren en zo nodig bijsturen.
+  <p align="center">
+    <ion-icon (click)='infoCareGiver($event)' name="person"></ion-icon>
   </p>
-  <!--<p>-->
-    <!--Take a look at the <code>src/pages/</code> directory to add or change tabs,-->
-    <!--update any existing page or create new pages.-->
-  <!--</p>-->
+  <p align="center">
+    <ion-icon (click)='addCareTaker($event)' name="person-add"></ion-icon>
+  </p>
+
 </ion-content>

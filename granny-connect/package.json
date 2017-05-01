@@ -1,8 +1,8 @@
 {
-  "name": "ionic-hello-world",
-  "version": "0.0.0",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "granny-connect-ionic",
+  "version": "0.0.1",
+  "author": "Sido Haakmas",
+  "homepage": "http://granny-connect.com/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -42,5 +42,5 @@
     "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": [],
-  "description": "myApp: An Ionic project"
+  "description": "granny-connect: An Ionic project for caregivers and caretakers"
 }

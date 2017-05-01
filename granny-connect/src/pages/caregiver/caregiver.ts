@@ -3,10 +3,10 @@ import { NavController } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'page-caregiver',
+  templateUrl: 'caregiver.html'
 })
-export class HomePage {
+export class CareGiverPage {
 
   constructor(public navCtrl: NavController, public alertCtrl: AlertController) {}
 
@@ -41,5 +41,4 @@ export class HomePage {
     });
     prompt.present();
   }
-
 }
