@@ -18,7 +18,7 @@
       "url": "https://github.com/bronsenproject-nl/granny-connect-ionic"
     },
     "versions": {
-      "gitbookConfigURL": "https://raw.githubusercontent.com/molgenis/molgenis/master/book.json",
+      "gitbookConfigURL": "https://raw.githubusercontent.com/bronsenproject-nl/granny-connect-ionic/master/book.json",
       "options": [
         {
           "value": "https://bronsenproject.gitbooks.io/granny-connect/content/v/master/",
