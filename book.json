@@ -1,0 +1,41 @@
+{
+  "gitbook": "^3.0.0",
+  "root": "./docs",
+  "plugins": [
+    "edit-link",
+    "prism",
+    "-fontsettings",
+    "-highlight",
+    "github",
+    "versions"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/bronsenproject-nl/granny-connect-ionic/tree/master/docs",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/bronsenproject-nl/granny-connect-ionic"
+    },
+    "versions": {
+      "gitbookConfigURL": "https://raw.githubusercontent.com/molgenis/molgenis/master/book.json",
+      "options": [
+        {
+          "value": "https://bronsenproject.gitbooks.io/granny-connect/content/v/master/",
+          "text": "Granny-Connect is currently under development",
+          "selected": true
+        },
+        {
+          "value": "https://bronsenproject.gitbooks.io/granny-connect/content/v/0.0.1/",
+          "text": "granny-connect v0.0.1"
+        }
+      ]
+    }
+  },
+  "links": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false
+    }
+  }
+}
